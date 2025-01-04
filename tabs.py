@@ -26,7 +26,7 @@ standard_values = {
 
 def home():
     st.header("Hi! We should work together & take care of Mother Earth")
-    st.image("earth.png")
+    #st.image("earth.png")
 
 
 def add_attribute_data(input_1, input_2, input_3, view_name):
