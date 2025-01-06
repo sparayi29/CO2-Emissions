@@ -7,6 +7,11 @@ from tabs import (home, transport, e_devices, results, hotel, building, ict, oth
 if __name__ == '__main__':
     st.set_page_config(layout='wide')
     st.title("Calculate Co2 Emissions in Engineering")
+    st.logo(
+    logo="bmw.png",  # Path to the image file
+    size="small",    # Options: "small", "medium", "large"
+    link="https://www.bmw.de/de/index.html"  # URL the logo should link to
+)
     #st.logo("bmw.png", size="large", link='https://www.bmw.de/de/index.html', icon_image=None)
 
     if "tab_index" not in st.session_state:
