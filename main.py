@@ -8,8 +8,6 @@ if __name__ == '__main__':
     st.set_page_config(layout='wide')
     st.title("Calculate Co2 Emissions in Engineering")
     #st.logo("bmw.png", size="large", link='https://www.bmw.de/de/index.html', icon_image=None)
-    st.image("bmw.png", use_column_width=True)  # Display the BMW logo
-    st.markdown("[BMW Website](https://www.bmw.de/de/index.html)")  # Add a clickable link to BMW's website
 
     if "tab_index" not in st.session_state:
         st.session_state['tab_index'] = 0
