@@ -7,22 +7,6 @@ from tabs import (home, transport, e_devices, results, hotel, building, ict, oth
 if __name__ == '__main__':
     st.set_page_config(layout='wide')
     st.title("Calculate Co2 Emissions in Engineering")
-    st.markdown(
-        """
-        <style>
-        [data-testid="stSidebar"]::before {
-            content: "";
-            display: block;
-            height: 32px;
-            background-image: bmw.png;
-            background-size: contain;
-            background-repeat: no-repeat;
-            margin: 0 auto 10px;
-        }
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
     #st.logo("bmw.png", size="large", link='https://www.bmw.de/de/index.html', icon_image=None)
 
     if "tab_index" not in st.session_state:
