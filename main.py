@@ -14,7 +14,7 @@ if __name__ == '__main__':
             content: "";
             display: block;
             height: 32px;
-            background-image: url('bmw.png');
+            background-image: url('static/bmw.png');
             background-size: contain;
             background-repeat: no-repeat;
             margin: 0 auto 10px;
